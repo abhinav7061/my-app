@@ -71,7 +71,13 @@ export const projects = [
     title: "PollSphere - Interaive & Robust  Polling System",
     des: "Explore and gather seamless experience of polling and voting with this intuitive interface using robust technologies.",
     img: "https://res.cloudinary.com/dod0dts4f/image/upload/v1730225318/Screenshot_from_2024-10-30_03-29-56_1_woyriw.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: [
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732785981/react_pc3anp.svg", name: "react" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732786009/tailwind_lrrlys.svg", name: "tailwind" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732791865/nodejs_eymfif.svg", name: "nodejs" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732791836/mongodb_l8dnmz.svg", name: "mongodb" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732793247/Chart.js_vppgqu.png", name: "js" },
+    ],
     link: "https://pollsphere.vercel.app",
     isLive: true
   },
@@ -80,7 +86,13 @@ export const projects = [
     title: "Echoes & Insights - A Blogging App",
     des: "Simplify your blog writing and reading experience with Echoes & Insights. Seamlessly write on any topic.",
     img: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732643857/blogging_bdw3o2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: [
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732785981/react_pc3anp.svg", name: "react" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732786009/tailwind_lrrlys.svg", name: "tailwind" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732791865/nodejs_eymfif.svg", name: "nodejs" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732791836/mongodb_l8dnmz.svg", name: "mongodb" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732785897/fm_dntjjh.svg", name: "framer motion" },
+    ],
     link: "https://echoes-insights.vercel.app/",
     isLive: true
   },
@@ -89,7 +101,13 @@ export const projects = [
     title: "CoderAbhi - Forum Application",
     des: "A forum application to  ask the question and start discussion using code php.",
     img: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732702813/Screenshot_from_2024-11-27_18-55-54_jopwik.png",
-    iconLists: ["/re.svg", "/tail.svg", "/logo.svg", "/three.svg", "/c.svg"],
+    iconLists: [
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732791880/php_e1ty6a.svg", name: "php" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732792317/bootstrap_svlqil.svg", name: "bootstrap" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732791810/javascript_r42ysg.svg", name: "javascript" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732791850/mysql_pv5k14.svg", name: "mysql" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732791728/css_j5lkes.svg", name: "css" },
+    ],
     link: "https://github.com/abhinav7061/forum",
     isLive: false
   },
@@ -98,7 +116,13 @@ export const projects = [
     title: "My Animated Website",
     des: "My portfolio website, combining animations Three.js 3D and modern ui effects..",
     img: "https://res.cloudinary.com/dod0dts4f/image/upload/v1730226109/Frame_1_gximvz.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    iconLists: [
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732785959/next_phjstz.svg", name: "nextjs" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732786009/tailwind_lrrlys.svg", name: "tailwind" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1730219951/ts_p4abyz.svg", name: "typescript" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732786018/three_zwavyh.svg", name: "threejs" },
+      { logo: "https://res.cloudinary.com/dod0dts4f/image/upload/v1732785897/fm_dntjjh.svg", name: "framer motion" },
+    ],
     link: "/",
     isLive: true
   },
@@ -108,65 +132,32 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Akash Kumar",
+    title: "MERN Developer",
   },
   {
     quote:
       "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Akash Kumar",
+    title: "MERN Developer",
   },
   {
     quote:
       "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Akash Kumar",
+    title: "MERN Developer",
   },
   {
     quote:
       "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Akash Kumar",
+    title: "MERN Developer",
   },
   {
     quote:
       "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Akash Kumar",
+    title: "MERN Developer",
   },
 ];
 
@@ -205,14 +196,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/abhinav7061",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Abhinav56090600"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/abhinav-kumar93043/",
   },
 ];
 
