@@ -162,26 +162,33 @@ export const testimonials = [
 ];
 
 export const workExperience = [
+  // {
+  //   id: 1,
+  //   title: "KaTeX Writer (Part-time)",
+  //   desc: "Wrote KaTeX code for questions extracted from PDFs of specific books, crucial for showcasing on Quizlet.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp1.svg",
+  // },
   {
     id: 1,
-    title: "KaTeX Writer (Part-time)",
-    desc: "Wrote KaTeX code for questions extracted from PDFs of specific books, crucial for showcasing on Quizlet.",
+    title: "Software Developer (Internship)",
+    desc: "Contributed to the ITI Building Design web platform by optimizing code and completing modules during my time at CodroidHub Pvt. Ltd.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Freelance Web Developer",
-    desc: "Led the development of a web app for a client, from initial concept to deployment on cloud.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
     title: "Central Placement Cell Coordinator",
     desc: "Coordinated placement activities, facilitating the connection between students and potential employers.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
+  },
+  {
+    id: 3,
+    title: "Echoes & Insights Developer",
+    desc: "Developed Echoes & Insights, a web-based blogging app using the MERN stack, to facilitate seamless blog creation.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
   },
   {
     id: 4,
