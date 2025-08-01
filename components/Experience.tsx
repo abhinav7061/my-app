@@ -23,6 +23,10 @@ const Experience = () => {
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            as={'a'}
+            href={card.url}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img
