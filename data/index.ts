@@ -132,32 +132,16 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
+    clientUrl: '/akash.png',
     name: "Akash Kumar",
-    title: "MERN Developer",
+    title: "Full Stack Developer @CodroidHub",
   },
   {
     quote:
-      "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Akash Kumar",
-    title: "MERN Developer",
-  },
-  {
-    quote:
-      "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Akash Kumar",
-    title: "MERN Developer",
-  },
-  {
-    quote:
-      "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Akash Kumar",
-    title: "MERN Developer",
-  },
-  {
-    quote:
-      "Collaborating with Abhinav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhinav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhinav is the ideal partner.",
-    name: "Akash Kumar",
-    title: "MERN Developer",
+      "Working with Abhinav was a great experience. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.  We were impressed with his enthusiasm for every facet of development. He is a great partner to elevate your website and elevate your brand.",
+    clientUrl: 'https://media.licdn.com/dms/image/v2/D5603AQHIC9WqiLa3tw/profile-displayphoto-shrink_800_800/B56ZWorh.MGoAo-/0/1742291742663?e=1756944000&v=beta&t=bRByWTMu6YDT8PvJ4jptxflhkQjoLCp3masJYGVzrPc',
+    name: "Aditya Raj",
+    title: "SDET @Vodafone",
   },
 ];
 

@@ -12,6 +12,7 @@ export const InfiniteMovingCards = ({
 }: {
   items: {
     quote: string;
+    clientUrl: string;
     name: string;
     title: string;
   }[];
@@ -106,7 +107,7 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <div className="me-3">
-                  <img src="/akash.png" alt="profile" className=" object-fill h-10 w-10 rounded-full bg-black-200" />
+                  <img src={item.clientUrl} alt="profile" className=" object-fill h-10 w-10 rounded-full bg-black-200" />
                 </div>
                 <span className="flex flex-col gap-1">
                   <span className="text-xl font-bold leading-[1.6] text-white">
